@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> Stashed changes
     public float speed = 25.0F;
     public float jumpSpeed = 8.0F;
     public float gravity = 20.0F;
@@ -52,4 +58,5 @@ public class playerMovement : MonoBehaviour
         //Making the character move
         controller.Move(moveDirection * Time.deltaTime);
     }
+>>>>>>> 069ae93e2957c2e5f6e3f61adb63fee2529ae7c8
 }
