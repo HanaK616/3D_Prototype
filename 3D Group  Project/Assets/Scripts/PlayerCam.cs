@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class PlayerCam : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float sensX;
+    public float sensY;
 
-    // Update is called once per frame
-    void Update()
+    public Transform orientation;
+
+    float xRotation;
+    float yRotation;
+
+    private void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 }
